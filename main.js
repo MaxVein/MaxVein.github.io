@@ -885,14 +885,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/platform-browser */ "jhN1");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "fXoL");
 /* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app-routing.module */ "vY5A");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "tyNb");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common/http */ "tk/3");
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./app.component */ "Sy1n");
-/* harmony import */ var _about_me_about_me_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./about-me/about-me.component */ "NgH1");
-/* harmony import */ var _web_design_projects_web_design_projects_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./web-design-projects/web-design-projects.component */ "35lA");
-/* harmony import */ var _graphic_design_projects_graphic_design_projects_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./graphic-design-projects/graphic-design-projects.component */ "Mff/");
-/* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./home/home.component */ "9vUh");
-/* harmony import */ var _about_me_github_info_service__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./about-me/github-info.service */ "37H7");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common/http */ "tk/3");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app.component */ "Sy1n");
+/* harmony import */ var _about_me_about_me_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./about-me/about-me.component */ "NgH1");
+/* harmony import */ var _web_design_projects_web_design_projects_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./web-design-projects/web-design-projects.component */ "35lA");
+/* harmony import */ var _graphic_design_projects_graphic_design_projects_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./graphic-design-projects/graphic-design-projects.component */ "Mff/");
+/* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./home/home.component */ "9vUh");
+/* harmony import */ var _about_me_github_info_service__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./about-me/github-info.service */ "37H7");
 
 
 
@@ -904,48 +903,38 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
-
-const appRoutes = [
-    { path: '', component: _home_home_component__WEBPACK_IMPORTED_MODULE_9__["HomeComponent"] },
-    { path: 'about', component: _about_me_about_me_component__WEBPACK_IMPORTED_MODULE_6__["AboutMeComponent"] },
-    { path: 'webdesignprojects', component: _web_design_projects_web_design_projects_component__WEBPACK_IMPORTED_MODULE_7__["WebDesignProjectsComponent"] },
-    { path: 'graphicdesignprojects', component: _graphic_design_projects_graphic_design_projects_component__WEBPACK_IMPORTED_MODULE_8__["GraphicDesignProjectsComponent"] },
-];
 class AppModule {
 }
-AppModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineNgModule"]({ type: AppModule, bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_5__["AppComponent"]] });
-AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector"]({ factory: function AppModule_Factory(t) { return new (t || AppModule)(); }, providers: [_about_me_github_info_service__WEBPACK_IMPORTED_MODULE_10__["GithubInfoService"]], imports: [[
+AppModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineNgModule"]({ type: AppModule, bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]] });
+AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector"]({ factory: function AppModule_Factory(t) { return new (t || AppModule)(); }, providers: [_about_me_github_info_service__WEBPACK_IMPORTED_MODULE_9__["GithubInfoService"]], imports: [[
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
             _app_routing_module__WEBPACK_IMPORTED_MODULE_2__["AppRoutingModule"],
-            _angular_common_http__WEBPACK_IMPORTED_MODULE_4__["HttpClientModule"],
-            _angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterModule"].forRoot(appRoutes),
+            _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClientModule"]
         ]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_5__["AppComponent"],
-        _about_me_about_me_component__WEBPACK_IMPORTED_MODULE_6__["AboutMeComponent"],
-        _web_design_projects_web_design_projects_component__WEBPACK_IMPORTED_MODULE_7__["WebDesignProjectsComponent"],
-        _graphic_design_projects_graphic_design_projects_component__WEBPACK_IMPORTED_MODULE_8__["GraphicDesignProjectsComponent"],
-        _home_home_component__WEBPACK_IMPORTED_MODULE_9__["HomeComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"],
+        _about_me_about_me_component__WEBPACK_IMPORTED_MODULE_5__["AboutMeComponent"],
+        _web_design_projects_web_design_projects_component__WEBPACK_IMPORTED_MODULE_6__["WebDesignProjectsComponent"],
+        _graphic_design_projects_graphic_design_projects_component__WEBPACK_IMPORTED_MODULE_7__["GraphicDesignProjectsComponent"],
+        _home_home_component__WEBPACK_IMPORTED_MODULE_8__["HomeComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
         _app_routing_module__WEBPACK_IMPORTED_MODULE_2__["AppRoutingModule"],
-        _angular_common_http__WEBPACK_IMPORTED_MODULE_4__["HttpClientModule"], _angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterModule"]] }); })();
+        _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClientModule"]] }); })();
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](AppModule, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"],
         args: [{
                 declarations: [
-                    _app_component__WEBPACK_IMPORTED_MODULE_5__["AppComponent"],
-                    _about_me_about_me_component__WEBPACK_IMPORTED_MODULE_6__["AboutMeComponent"],
-                    _web_design_projects_web_design_projects_component__WEBPACK_IMPORTED_MODULE_7__["WebDesignProjectsComponent"],
-                    _graphic_design_projects_graphic_design_projects_component__WEBPACK_IMPORTED_MODULE_8__["GraphicDesignProjectsComponent"],
-                    _home_home_component__WEBPACK_IMPORTED_MODULE_9__["HomeComponent"],
+                    _app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"],
+                    _about_me_about_me_component__WEBPACK_IMPORTED_MODULE_5__["AboutMeComponent"],
+                    _web_design_projects_web_design_projects_component__WEBPACK_IMPORTED_MODULE_6__["WebDesignProjectsComponent"],
+                    _graphic_design_projects_graphic_design_projects_component__WEBPACK_IMPORTED_MODULE_7__["GraphicDesignProjectsComponent"],
+                    _home_home_component__WEBPACK_IMPORTED_MODULE_8__["HomeComponent"],
                 ],
                 imports: [
                     _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
                     _app_routing_module__WEBPACK_IMPORTED_MODULE_2__["AppRoutingModule"],
-                    _angular_common_http__WEBPACK_IMPORTED_MODULE_4__["HttpClientModule"],
-                    _angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterModule"].forRoot(appRoutes),
+                    _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClientModule"]
                 ],
-                providers: [_about_me_github_info_service__WEBPACK_IMPORTED_MODULE_10__["GithubInfoService"]],
-                bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_5__["AppComponent"]],
+                providers: [_about_me_github_info_service__WEBPACK_IMPORTED_MODULE_9__["GithubInfoService"]],
+                bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]],
             }]
     }], null, null); })();
 
@@ -964,11 +953,24 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppRoutingModule", function() { return AppRoutingModule; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "tyNb");
+/* harmony import */ var _about_me_about_me_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./about-me/about-me.component */ "NgH1");
+/* harmony import */ var _web_design_projects_web_design_projects_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./web-design-projects/web-design-projects.component */ "35lA");
+/* harmony import */ var _graphic_design_projects_graphic_design_projects_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./graphic-design-projects/graphic-design-projects.component */ "Mff/");
+/* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./home/home.component */ "9vUh");
 
 
 
 
-const routes = [];
+
+
+
+
+const routes = [
+    { path: '', component: _home_home_component__WEBPACK_IMPORTED_MODULE_5__["HomeComponent"] },
+    { path: 'about', component: _about_me_about_me_component__WEBPACK_IMPORTED_MODULE_2__["AboutMeComponent"] },
+    { path: 'webdesignprojects', component: _web_design_projects_web_design_projects_component__WEBPACK_IMPORTED_MODULE_3__["WebDesignProjectsComponent"] },
+    { path: 'graphicdesignprojects', component: _graphic_design_projects_graphic_design_projects_component__WEBPACK_IMPORTED_MODULE_4__["GraphicDesignProjectsComponent"] },
+];
 class AppRoutingModule {
 }
 AppRoutingModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineNgModule"]({ type: AppRoutingModule });
